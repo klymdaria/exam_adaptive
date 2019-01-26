@@ -1,0 +1,35 @@
+.ba-ask {
+    background: #f4f5f0;
+    padding: 70px 0 70px;
+
+    &-main-menu {
+        li {
+            position: relative;
+            color: #6e774a;
+            font-size: 18px;
+            font-weight: 300;
+
+            &::before {
+                content: '+';
+                position: absolute;
+                color:#6e774a;
+                width: 20px;
+                height: 20px;
+                left: -10px;
+                top: 5px;
+            }
+        }
+    }
+}
+
+.ba-ask-title {
+    color:  #1b1c1a;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.ba-ask-second-menu{
+    color: #1b1c1a;
+}

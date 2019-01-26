@@ -1,0 +1,47 @@
+.ba-ask {
+    // min-height: 800px; 
+
+    & .ba-product-card-starts--ask {
+        padding-top: 264px;
+    }
+}
+
+.ask-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.ba-first-slider__item {
+    min-height: 800px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, .1) 100%) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: centen;
+    align-items: center;
+
+
+}
+
+.ba-people-desc {
+
+    max-width: 745px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.ba-people-person {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 30px;
+}

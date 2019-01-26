@@ -1,0 +1,39 @@
+<header class="ba-container">
+    <div class="ba-header-wrap">
+
+        <div class="ba-header-header">
+                <div class="column ">
+                    <button class="menu-icon dark hide-for-medium" type="button" data-open="offCanvas" aria-label="Show menu">
+                    </button>
+                    <ul class="menu ba-main-menu show-for-medium">
+                        <li {{#ifpage 'index'}} class="active" {{/ifpage}}><a href="index.html">Home</a></li> 
+                        <li {{#ifpage 'shop'}} class="active" {{/ifpage}}><a href="shop.html">Products</a></li>
+                        <li {{#ifpage 'shop'}} class="active" {{/ifpage}}><a href="shop.html">FAQs</a></li>
+                        <li {{#ifpage 'shop'}} class="active" {{/ifpage}}><a href="shop.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- /.column --> 
+                <div class="column">
+                    <a class="ba-logo" href="/">
+                        CBD
+                    </a>
+                </div>
+                <div class="column ">
+                    <button class="menu-icon dark hide-for-medium" type="button" data-open="offCanvas" aria-label="Show menu">
+                    </button>
+                    <ul class="menu ba-main-menu ba-try show-for-medium">
+                        <li ><a href="index.html">Login</a></li> 
+                        <li ><a href="shop.html">
+                                <svg width=18 height=18>
+                                        <use xlink:href="#icon-search" />
+                                    </svg>
+                                    Search</a></li>
+                        <li ><a href="shop.html">Cart(0)</a></li>
+                    </ul>
+                </div>
+    
+            <!-- /.row -->
+        </div>
+    </div>
+    <!-- /.ba-header-wrap -->
+</header>
